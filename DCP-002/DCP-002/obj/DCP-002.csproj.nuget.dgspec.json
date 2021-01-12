@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Nicholas Maver\\Desktop\\GitHub\\DailyCodingProblems\\DCP-001\\ConsoleApp1\\ConsoleApp1.csproj": {}
+    "C:\\Users\\Nicholas Maver\\Desktop\\GitHub\\DailyCodingProblems\\DCP-002\\DCP-002\\DCP-002.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Nicholas Maver\\Desktop\\GitHub\\DailyCodingProblems\\DCP-001\\ConsoleApp1\\ConsoleApp1.csproj": {
+    "C:\\Users\\Nicholas Maver\\Desktop\\GitHub\\DailyCodingProblems\\DCP-002\\DCP-002\\DCP-002.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Nicholas Maver\\Desktop\\GitHub\\DailyCodingProblems\\DCP-001\\ConsoleApp1\\ConsoleApp1.csproj",
-        "projectName": "ConsoleApp1",
-        "projectPath": "C:\\Users\\Nicholas Maver\\Desktop\\GitHub\\DailyCodingProblems\\DCP-001\\ConsoleApp1\\ConsoleApp1.csproj",
+        "projectUniqueName": "C:\\Users\\Nicholas Maver\\Desktop\\GitHub\\DailyCodingProblems\\DCP-002\\DCP-002\\DCP-002.csproj",
+        "projectName": "DCP-002",
+        "projectPath": "C:\\Users\\Nicholas Maver\\Desktop\\GitHub\\DailyCodingProblems\\DCP-002\\DCP-002\\DCP-002.csproj",
         "packagesPath": "C:\\Users\\Nicholas Maver\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Nicholas Maver\\Desktop\\GitHub\\DailyCodingProblems\\DCP-001\\ConsoleApp1\\obj\\",
+        "outputPath": "C:\\Users\\Nicholas Maver\\Desktop\\GitHub\\DailyCodingProblems\\DCP-002\\DCP-002\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Nicholas Maver\\AppData\\Roaming\\NuGet\\NuGet.Config",
