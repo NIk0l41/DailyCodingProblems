@@ -48,20 +48,21 @@ namespace DCP_004
 
                     }
                     else{
-                        //If the array has a length of 1, we check to see what gaps exist, then declare what it is.
-                        //Luckily, there can't be many gaps with a singular block.
+                        /*If the array has a length of 1, we check to see what gaps exist, then declare what it is.
+                        Luckily, there can't be many gaps with a singular block.*/
                         if (tmp[0] > 1) { p = 1; }
                         else{
                             if (tmp[0] == 1) { p = 2; }
                         }
                     }
                 }
-                else {/*And if for some ungodly reason, the entire array was NEGATIVE, well, the
+                else {/*And if for some ungodly reason, the entire array was NEGATIVE or ZERO, well, the
                     lowest positive integer possible is '1'*/
                     p = 1;
                 }
             }
             else {
+
             }
 
             Console.WriteLine(p);
