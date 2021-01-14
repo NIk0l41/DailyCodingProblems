@@ -42,7 +42,8 @@ namespace DCP_004
                                     break;
                                 }
                             }
-                            if (p == 0) { p = tmp.Length + 1; }
+                            if (p == 0) { p = tmp.Length + 1; }/*However, if no gap is found in the entire array, 
+                            then the lowest number we can generate is the one after the highest one.*/
                         }
 
                     }
