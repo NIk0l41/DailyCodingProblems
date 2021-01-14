@@ -17,10 +17,43 @@ namespace NIk0l41
                 this.right = right;
             }
 
-            public void NewBranch(string side, Node left = null, Node right = null){
+            public BinaryTreeMessage AddBranch(Node node, bool onLeftSide = true) {
+                BinaryTreeMessage mess = new BinaryTreeMessage(BinaryTreeMessageType.Error, null);
+                switch (onLeftSide) {
+                    case true:
+                        if (node.left != null){
+                            node.left = new Node(null);
+                            mess.type = BinaryTreeMessageType.Success;
+                            mess.message = "Node Successfully added to tree.";
+                        }
+                        else {
+                            mess.type = BinaryTreeMessageType.Error;
 
+                        }
+                        break;
+                    case false:
+                        node.right = new Node(null);
+                        break;
+                }
             }
 
+        }
+
+        class BinaryTreeMessage {
+
+            public BinaryTreeMessageType type;
+            public string message;
+
+            public BinaryTreeMessage(BinaryTreeMessageType type, string message) {
+                this.type = type;
+                this.message = message;
+            }
+        }
+
+        enum BinaryTreeMessageType {
+            Error,
+            Notification,
+            Success
         }
     }
 }

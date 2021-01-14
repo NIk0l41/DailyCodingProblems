@@ -6,7 +6,13 @@ namespace DCP_003
     {
         static void Main(string[] args)
         {
-            Node node = new Node("Root", new Node("left", new Node("left.left")), new Node("right"));
+            Node node = new Node(
+                "Root",
+                    new Node("left",
+                        new Node("left.left")
+                    ),
+                    new Node("right")
+            );
             if (deserialise(serialise(node)).left.left.val == "left.left") {
                 Console.WriteLine("Yay!");
                 Console.ReadLine();
@@ -19,9 +25,7 @@ namespace DCP_003
         /// <param name="Root">The Root Node.</param>
         /// <returns></returns>
         static string serialise(Node Root) {
-            Node b = Root.left;
-            Node c = b.left;
-            return c.val;
+            return Root.left.left.val;
         }
 
         static Node deserialise(string Tree) {
@@ -56,9 +60,6 @@ namespace DCP_003
             this.right = right;
         }
 
-        public void NewBranch(string side, Node left = null, Node right = null) {
-            
-        }
 
     }
 }
