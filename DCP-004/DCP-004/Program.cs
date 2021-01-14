@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Linq;
 
 namespace DCP_004
 {
@@ -7,7 +8,7 @@ namespace DCP_004
         static void Main(string[] args)
         {
             //Input Array
-            int[] a = { -3,0,1,3 };
+            int[] a = { -3,0,1,3,3 };
 
             //Output Integer
             int p = 0;
@@ -22,8 +23,11 @@ namespace DCP_004
             Console.WriteLine("-----");
             if (tmp.Length != 1) {
 
-                //Dispose of Negative Numbers//
+                /*Dispose of Negative Numbers*/
                 tmp = Array.FindAll(tmp, isPositive);
+                /*Dispose of Duplicates (Uses System.Linq)*/
+                tmp = tmp.Distinct<int>().ToArray();
+
                 if (tmp.Length > 0){
                     if (tmp.Length != 1) {
                 /*The two conditions above just verify that we have an array that has a length of 2 or more items,
