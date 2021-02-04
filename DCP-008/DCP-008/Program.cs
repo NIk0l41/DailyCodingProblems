@@ -54,6 +54,11 @@ namespace DCP_008
             Console.ReadLine();
         }
 
+        /// <summary>
+        /// Initiates the counting process
+        /// </summary>
+        /// <param name="root">The root node.</param>
+        /// <returns></returns>
         static int univalCount(Node root) {
             int left_count = count(root.left, root.val);
             int right_count = count(root.right, root.val);
@@ -61,25 +66,34 @@ namespace DCP_008
 
         }
 
-        static bool isUnival(Node node, string val) {
+        /// <summary>
+        /// Determines whether a given node is considered 'unival'. If it is, returns a 1, if not, returns a 0.
+        /// </summary>
+        /// <param name="node">The node to be checked for unival qualities.</param>
+        /// <param name="val">The root value for checking.</param>
+        /// <returns></returns>
+        static int isUnival(Node node, string val) {
             if (node.val != val) {
-                return true;
+                return 1;
             }
             if (node.left == null && node.right == null) {
-                return true;
+                return 1;
             }
-            return false;
+            return 0;
         }
 
+        /// <summary>
+        /// Returns a count of all unival trees present for half of the tree.
+        /// </summary>
+        /// <param name="node">The node to be checked.</param>
+        /// <param name="val">The root value for checking.</param>
+        /// <returns></returns>
         static int count(Node node, string val) {
             int tmp = 0;
             if (node == null) {
                 return 0;
             }
-            if (isUnival(node, val)) {
-                tmp++;
-            }
-            tmp += count(node.left, val) + count(node.right, val);
+            tmp += count(node.left, val) + count(node.right, val) + isUnival(node, val);
             return tmp;
         }
     }
