@@ -1,0 +1,11 @@
+C:\Users\Nicholas Maver\Desktop\GitHub\DailyCodingProblems\DCP-008\DCP-008\bin\Debug\netcoreapp3.0\DCP-008.exe
+C:\Users\Nicholas Maver\Desktop\GitHub\DailyCodingProblems\DCP-008\DCP-008\bin\Debug\netcoreapp3.0\DCP-008.deps.json
+C:\Users\Nicholas Maver\Desktop\GitHub\DailyCodingProblems\DCP-008\DCP-008\bin\Debug\netcoreapp3.0\DCP-008.runtimeconfig.json
+C:\Users\Nicholas Maver\Desktop\GitHub\DailyCodingProblems\DCP-008\DCP-008\bin\Debug\netcoreapp3.0\DCP-008.runtimeconfig.dev.json
+C:\Users\Nicholas Maver\Desktop\GitHub\DailyCodingProblems\DCP-008\DCP-008\bin\Debug\netcoreapp3.0\DCP-008.dll
+C:\Users\Nicholas Maver\Desktop\GitHub\DailyCodingProblems\DCP-008\DCP-008\bin\Debug\netcoreapp3.0\DCP-008.pdb
+C:\Users\Nicholas Maver\Desktop\GitHub\DailyCodingProblems\DCP-008\DCP-008\obj\Debug\netcoreapp3.0\DCP-008.csprojAssemblyReference.cache
+C:\Users\Nicholas Maver\Desktop\GitHub\DailyCodingProblems\DCP-008\DCP-008\obj\Debug\netcoreapp3.0\DCP-008.AssemblyInfoInputs.cache
+C:\Users\Nicholas Maver\Desktop\GitHub\DailyCodingProblems\DCP-008\DCP-008\obj\Debug\netcoreapp3.0\DCP-008.AssemblyInfo.cs
+C:\Users\Nicholas Maver\Desktop\GitHub\DailyCodingProblems\DCP-008\DCP-008\obj\Debug\netcoreapp3.0\DCP-008.dll
+C:\Users\Nicholas Maver\Desktop\GitHub\DailyCodingProblems\DCP-008\DCP-008\obj\Debug\netcoreapp3.0\DCP-008.pdb
