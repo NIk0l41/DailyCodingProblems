@@ -1,0 +1,3 @@
+C:\Users\Nicholas Maver\Desktop\GitHub\DailyCodingProblems\DCP-016\DCP-016\obj\Debug\netcoreapp3.0\DCP-016.csprojAssemblyReference.cache
+C:\Users\Nicholas Maver\Desktop\GitHub\DailyCodingProblems\DCP-016\DCP-016\obj\Debug\netcoreapp3.0\DCP-016.AssemblyInfoInputs.cache
+C:\Users\Nicholas Maver\Desktop\GitHub\DailyCodingProblems\DCP-016\DCP-016\obj\Debug\netcoreapp3.0\DCP-016.AssemblyInfo.cs
